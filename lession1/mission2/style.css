@@ -1,0 +1,128 @@
+body{
+    background-color: gainsboro;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+p{
+    padding: 5px;
+    text-indent: 2em;
+}
+
+.title2{
+    color: #666666;
+}
+
+.author{
+    font-size: 6px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.imgList{
+    padding: 1px;
+    margin: 20px 0px;
+    border-width: 1px;
+    border-style: solid;
+    width: 100px;
+}
+
+.imginfo{
+    display: block;
+    text-align: center;
+    width: 100px;
+}
+
+#header{
+    margin: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    float: left;
+    height: 80px;
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+
+#website_title{
+    margin-left: 25px;
+    float: left;
+}
+
+#nav ul{
+    margin: 0px 10px;
+    float: right;
+    height: 80px;
+    line-height: 80px;
+}
+
+#nav ul li{
+    line-height: 100%;
+    margin: 2px;
+    display: inline;
+    font-size: 8px;
+}
+
+.part{
+    position: relative;
+    top:100px;
+    margin:20px;
+    padding: 0px 25px;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+table{
+    margin:10px 0px;
+    width: 100%;
+}
+
+thead tr th{
+    text-align: left;
+    background: black;
+    color: white;
+}
+
+tfoot tr td{
+    background-color: gainsboro;
+}
+
+.register{
+    margin: 20px;
+}
+
+.submit{
+    width: 100%;
+    background-color: #3385ff;
+    margin-bottom: 20px;
+}
+
+.label{
+    width: 100%;
+    text-align: right;
+}
+
+textarea{
+    width: 200px;
+    height:50px;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    margin-top:120px;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+}
