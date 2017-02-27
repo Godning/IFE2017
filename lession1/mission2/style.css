@@ -81,18 +81,27 @@ img{
 }
 
 table{
-    margin:10px 0px;
-    width: 100%;
+    border-collapse: collapse;
+    width:100%;
+    margin: 20px 0px;
 }
-
-thead tr th{
-    text-align: left;
-    background: black;
+thead tr{
+    background-color: black;
     color: white;
+    text-align: left;
+}
+td{
+    border: solid #DBDBDB 1.5px;
+}
+tfoot tr{
+    background-color: #CCCCCC;
+}
+tfoot td{
+    border: none;
 }
 
-tfoot tr td{
-    background-color: gainsboro;
+.register{
+    margin: 20px;
 }
 
 .register{
