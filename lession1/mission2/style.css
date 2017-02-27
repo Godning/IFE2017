@@ -80,28 +80,24 @@ img{
     border-style: solid;
 }
 
-table{
+.tab{
     border-collapse: collapse;
     width:100%;
     margin: 20px 0px;
 }
-thead tr{
+.tab thead tr{
     background-color: black;
     color: white;
     text-align: left;
 }
-td{
+.tab td{
     border: solid #DBDBDB 1.5px;
 }
-tfoot tr{
+.tab tfoot tr{
     background-color: #CCCCCC;
 }
-tfoot td{
+.tab tfoot td {
     border: none;
-}
-
-.register{
-    margin: 20px;
 }
 
 .register{
@@ -117,6 +113,10 @@ tfoot td{
 .label{
     width: 100%;
     text-align: right;
+}
+
+.res{
+    width: 100%;
 }
 
 textarea{
